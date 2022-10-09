@@ -23,7 +23,7 @@
         app:srcCompat="@drawable/android_logo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -71,45 +71,62 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="237dp"
-        android:layout_height="57dp"
+        android:id="@+id/buttonLogin"
+        android:layout_width="242dp"
+        android:layout_height="58dp"
         android:layout_marginStart="96dp"
-        android:layout_marginTop="560dp"
+        android:layout_marginTop="604dp"
         android:text="@string/login"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonRegister"
         android:layout_width="114dp"
         android:layout_height="54dp"
-        android:layout_marginStart="216dp"
-        android:layout_marginTop="632dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="672dp"
         android:text="@string/register"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonReturn"
         android:layout_width="114dp"
         android:layout_height="54dp"
         android:layout_marginStart="96dp"
-        android:layout_marginTop="632dp"
+        android:layout_marginTop="672dp"
         android:text="@string/returnBtn"
+        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/helpButton"
+        android:id="@+id/buttonHelp"
         android:layout_width="51dp"
         android:layout_height="61dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="632dp"
         android:text="@string/help"
+        android:textColor="#FFFFFF"
         app:cornerRadius="50dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonForgottenPassword"
+        android:layout_width="230dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="2dp"
+        android:textColor="#FFFFFF"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/forgotPassword"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
